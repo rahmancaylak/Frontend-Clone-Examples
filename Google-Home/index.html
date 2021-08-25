@@ -12,22 +12,24 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="" class="header-text">Gmail</a></li>
-                <li><a href="" class="header-text">Görseller</a></li>
+            <ul class="d-flex justify-content-flex-end align-items-center">
+                <li><a href="#" class="header-text">Gmail</a></li>
+                <li><a href="#" class="header-text">Görseller</a></li>
                 <li>
-                    <a href="" class="header-text"></a><img src="assets/img/appsbutton.svg" alt="" style="width: 16px; height: 20px; margin-right: 3px;"></a>
+                    <div class="header-apps-button">
+                        <a href="#"><img src="assets/img/appsbutton.svg" width="16px;" class="d-flex" alt="app-button"></a>
+                    </div>
                 </li>
-                <li><img class="profile-picture" src="https://lh3.googleusercontent.com/ogw/ADea4I409L64jFTW4CzTcsptQ_Ws8owLh_r1uhZ9CBlbRA=s32-c-mo" width="32px" height="32px"></li>
+                <li><img class="profile-picture" src="https://lh3.googleusercontent.com/ogw/ADea4I409L64jFTW4CzTcsptQ_Ws8owLh_r1uhZ9CBlbRA=s32-c-mo" width="32px" height="32px" alt="profile-picture"></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="home-logo"><img src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo.png" height="150px"></section>
+        <section class="d-flex justify-content-center"><img src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo.png" height="150px"></section>
         <section style="padding: 20px;">
-            <div class="search-area">
-                <div class="search">
-                    <div class="search-img">
+            <div class="d-flex search-area">
+                <div class="d-flex search">
+                    <div class="d-flex align-items-center search-img">
                         <span>
               <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
@@ -35,10 +37,10 @@
               </svg>
             </span>
                     </div>
-                    <div class="input-enter">
-                        <input type="text" class="input-search" maxlength="2048" autofocus="true" />
+                    <div class="d-flex flex-wrap input-enter">
+                        <input type="text" class="d-flex input-search" maxlength="2048" autofocus="true" />
                     </div>
-                    <div class="voice-img">
+                    <div class="d-flex align-items-center voice-img">
                         <img src="assets/img/voicelogo.png" width="24" height="24" vertical-align="middle" alt="google-logo" />
                     </div>
                 </div>
@@ -47,21 +49,21 @@
     </main>
     <footer>
         <div class="country-text">Türkiye</div>
-        <div class="bottom-footer bottom-footer-display">
-            <div class="footer-left bottom-footer-display">
-                <a href="" class="footer-text">Hakkında</a>
-                <a href="" class="footer-text">Reklam</a>
-                <a href="" class="footer-text">İşletme</a>
-                <a href="" class="footer-text">Arama Nasıl Çalışır?</a>
+        <div class="bottom-footer d-flex justify-content-space-between flex-wrap">
+            <div class="footer-left d-flex justify-content-flex-start flex-wrap">
+                <a href="#" class="footer-text">Hakkında</a>
+                <a href="#" class="footer-text">Reklam</a>
+                <a href="#" class="footer-text">İşletme</a>
+                <a href="#" class="footer-text">Arama Nasıl Çalışır?</a>
             </div>
-            <div class="footer-center bottom-footer-display">
-                <a href="" class="footer-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"
+            <div class="footer-center d-flex justify-content-space-between flex-wrap">
+                <a href="#" class="footer-text"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"
                         height="14px"><span>2007'den bugüne karbon nötr</span></a>
             </div>
-            <div class="footer-right bottom-footer-display">
-                <a href="" class="footer-text">Gizlilik</a>
-                <a href="" class="footer-text">Şartlar</a>
-                <a href="" class="footer-text">Ayarlar</a>
+            <div class="footer-right d-flex justify-content-space-between flex-wrap">
+                <a href="#" class="footer-text">Gizlilik</a>
+                <a href="#" class="footer-text">Şartlar</a>
+                <a href="#" class="footer-text">Ayarlar</a>
             </div>
         </div>
     </footer>

@@ -11,16 +11,39 @@ a {
     text-decoration: none;
 }
 
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-flex-start {
+    justify-content: flex-start;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 
 /* Header Start */
 
 header nav ul {
-    margin-top: 9px;
-    margin-right: 13px;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    margin-right: 10px;
 }
 
 header nav ul li {
@@ -36,12 +59,19 @@ header nav ul li {
     text-decoration: underline;
 }
 
+.header-apps-button {
+    padding: 10px;
+    border-radius: 50%;
+}
+
 .profile-picture {
+    margin-top: 10px;
     border-radius: 50%;
     padding: 4px;
 }
 
-.profile-picture:hover {
+.profile-picture:hover,
+.header-apps-button:hover {
     -webkit-box-shadow: 0 1px 0 rgb(0 0 0 / 15%);
     box-shadow: 0 1px 0 rgb(0 0 0 / 15%);
     background-color: rgba(60, 64, 67, 0.08);
@@ -51,15 +81,9 @@ header nav ul li {
 
 /* Content Start */
 
-.home-logo {
-    display: flex;
-    justify-content: center;
-}
-
 .search-area {
     border-radius: 25px;
     background: #fff;
-    display: flex;
     border: 1px solid #dfe1e5;
     height: 44px;
     margin: 0 auto;
@@ -73,14 +97,11 @@ header nav ul li {
 
 .search {
     flex: 1;
-    display: flex;
     padding: 5px 8px 0 16px;
     padding-left: 14px;
 }
 
 .search-img {
-    display: flex;
-    align-items: center;
     padding-right: 13px;
     margin-top: -5px;
 }
@@ -97,16 +118,12 @@ header nav ul li {
 }
 
 .voice-img {
-    display: flex;
-    align-items: center;
     padding-right: 13px;
     margin-top: -5px;
 }
 
 .input-enter {
-    display: flex;
     flex: 1;
-    flex-wrap: wrap;
 }
 
 .input-search {
@@ -116,7 +133,6 @@ header nav ul li {
     color: rgba(0, 0, 0, .87);
     word-wrap: break-word;
     outline: none;
-    display: flex;
     flex: 100%;
     -webkit-tap-highlight-color: transparent;
     font-size: 16px;
@@ -145,12 +161,6 @@ footer {
     padding: 0 20px;
 }
 
-.bottom-footer-display {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .footer-text {
     padding: 15px;
     font-size: 14px;
@@ -162,7 +172,6 @@ footer {
 }
 
 .footer-left {
-    justify-content: flex-start;
     min-width: 30%;
     order: 1;
 }
