@@ -1,3 +1,3 @@
 # 1. Google Home Page
 ## How To Look
-![google-home](https://github.com/rahmancaylak/Frontend-Clone-Examples/blob/main/google-home.png?raw=true)
+![google-home](https://raw.githubusercontent.com/rahmancaylak/Frontend-Clone-Examples/master/google-home.png)
