@@ -88,7 +88,6 @@ header nav ul li {
     height: 44px;
     margin: 0 auto;
     max-width: 582px;
-    margin-bottom: 30px;
 }
 
 .search-area:hover {
@@ -139,14 +138,31 @@ header nav ul li {
     margin-bottom: 6px;
 }
 
+.search-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
 
 /* Footer Start */
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin-top: 120px;
     background-color: #f2f2f2;
 }
 
