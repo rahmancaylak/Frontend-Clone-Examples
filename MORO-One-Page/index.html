@@ -1,23 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <title>Moro</title>
 </head>
+
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://moro.netlify.app/main/img/logo.png" alt="" width="119" height="41">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Price</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <div class="contact-button px-4">
+                            <a href="" class="btn-primary text-decoration-none rounded-pill d-flex justify-content-center align-items-center text-light">Contact Us</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero d-flex justify-content-center align-items-center">
+        <div class="container text-center">
+            <div class="row">
+                <h1 class="text-white text-uppercase">Be Creative</h1>
+                <p style="margin-top:0.1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    <br> ut labore et dolore magna aliqua.</p>
+                <div class="contact-button px-4 d-flex justify-content-center">
+                    <a href="" class="btn-primary text-decoration-none mx-2 rounded-pill d-flex justify-content-center align-items-center text-light">About Us !</a>
+                    <a href="" class="border border-white btn-outline-secondary text-decoration-none mx-2 rounded-pill d-flex justify-content-center align-items-center text-light">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Boostrap Bundle JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Custom JS -->
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
