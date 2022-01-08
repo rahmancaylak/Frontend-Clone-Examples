@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500,600,700,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
 body {
   font-family: "Raleway", sans-serif;
@@ -76,5 +76,91 @@ header .navbar .nav-item .nav-link:hover {
 .hero p {
   font-family: "Mulish", sans-serif;
   color: #d1e5e7;
+  margin-top: 0.1rem;
+}
+
+.welcome {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.welcome h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.welcome h2 .secondary-color {
+  color: #F24259;
+}
+
+.welcome p {
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  color: #999999;
+}
+
+.welcome .card {
+  border: none;
+  padding-top: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 6px 20px #e0dfdf;
+          box-shadow: 0px 6px 20px #e0dfdf;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.welcome .card h3 {
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+}
+
+.welcome .card .card-border {
+  padding: 20px;
+  display: block;
+  height: 1px;
+  width: 100%;
+  border-bottom: 2px solid #F24259 !important;
+  border-radius: 10px;
+}
+
+.welcome .card .card-body {
+  padding-top: 0;
+}
+
+.welcome .card .fa-pencil-ruler {
+  font-size: 2rem;
+  color: #F24259;
+}
+
+.welcome .card .fa-pencil-ruler::after {
+  display: block;
+  margin: auto;
+  content: "";
+  margin-top: 20px;
+  margin-bottom: 10px;
+  max-width: 2.5rem;
+  border-bottom: 1px solid #F24259;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.welcome .card:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.welcome .card:hover .fa-pencil-ruler:after {
+  max-width: 6rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-bottom: 1px solid #F24259;
+}
+
+.welcome .card .card-text {
+  font-size: 0.9rem;
 }
 /*# sourceMappingURL=style.css.map */
