@@ -1,5 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500,600,700,800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300,400,500,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300,800&display=swap");
+@-webkit-keyframes ripple {
+  from {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: scale(3);
+            transform: scale(3);
+  }
+}
+
+@keyframes ripple {
+  from {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    opacity: 0;
+    -webkit-transform: scale(3);
+            transform: scale(3);
+  }
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -58,6 +84,10 @@ header .navbar .nav-item .nav-link:hover {
           box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
 }
 
+.secondary-color {
+  color: #F24259;
+}
+
 .hero {
   background-image: url(https://moro.netlify.app/main/img/bg/slider.png);
   background-attachment: fixed;
@@ -87,10 +117,6 @@ header .navbar .nav-item .nav-link:hover {
 .welcome h2 {
   font-size: 1.8rem;
   font-weight: 700;
-}
-
-.welcome h2 .secondary-color {
-  color: #F24259;
 }
 
 .welcome p {
@@ -162,5 +188,113 @@ header .navbar .nav-item .nav-link:hover {
 
 .welcome .card .card-text {
   font-size: 0.9rem;
+}
+
+.skills {
+  background-image: url(https://moro.netlify.app/main/img/bg/about.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+
+.skills span {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.skills .content-paragraph {
+  font-size: 0.9375rem;
+  padding-right: 30px;
+}
+
+.skills p {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #d1e5e7;
+}
+
+.skills h2 {
+  color: #FFF;
+  font-weight: 800;
+}
+
+.skills .card {
+  margin-left: -40px;
+  border: none;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1.3rem;
+}
+
+.skills .card h3 {
+  font-size: 1.1rem;
+}
+
+.skills .card .fa-lightbulb:before {
+  padding-left: 0.3rem;
+}
+
+.skills .card .skills-right-icon {
+  font-size: 1.7rem;
+  color: #F24259;
+}
+
+.skills .card .skills-right-icon::after {
+  display: block;
+  content: "";
+  margin-top: 10px;
+  margin-bottom: 15px;
+  max-width: 1.8rem;
+  border-bottom: 2px solid #F24259;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.skills .card .card-body {
+  padding: 0;
+}
+
+.about-us {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.about-us p {
+  font-weight: 400;
+  line-height: 1.8;
+  font-size: 0.9375rem;
+  color: #999999;
+}
+
+.about-us h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.about-us h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.about-us ul {
+  margin: 0;
+  padding: 0;
+}
+
+.about-us li {
+  font-size: 0.9rem;
+  line-height: 2.2;
+  font-size: 0.9375rem;
+  list-style-type: none;
+}
+
+.about-us li::before {
+  font-size: 0.9rem;
+  color: #F24259;
+  font-family: "Font Awesome 5 Free";
+  content: '\f005';
+  margin-right: 0.7rem;
 }
 /*# sourceMappingURL=style.css.map */
