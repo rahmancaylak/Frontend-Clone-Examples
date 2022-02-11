@@ -297,4 +297,66 @@ header .navbar .nav-item .nav-link:hover {
   content: '\f005';
   margin-right: 0.7rem;
 }
+
+.creativity-video-area {
+  background-image: url(https://moro.netlify.app/main/img/bg/vedio.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.creativity-video-area p {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #d1e5e7;
+}
+
+.creativity-video-area h2 {
+  line-height: 2.188rem;
+  font-size: 1.563rem;
+  color: #FFF;
+  font-weight: 700;
+}
+
+.creativity-video-area .video-area {
+  position: relative;
+}
+
+.creativity-video-area .video-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.creativity-video-area .video-play-icon {
+  position: relative;
+  color: #FFF;
+  padding: 22px 25px;
+  background-color: #ff414d;
+}
+
+.creativity-video-area .video-play-icon::before {
+  position: absolute;
+  top: 15%;
+  right: 12%;
+  padding: 24px;
+  border-radius: 200px;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  background-color: #FFF;
+  content: "";
+  z-index: -1;
+  -webkit-animation: ripple 1.5s ease-out infinite;
+          animation: ripple 1.5s ease-out infinite;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.creativity-video-area .video-play-icon i {
+  font-size: 0.8rem;
+}
 /*# sourceMappingURL=style.css.map */
