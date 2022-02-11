@@ -31,6 +31,19 @@ body {
   font-weight: 500;
 }
 
+header .sticky-header {
+  -webkit-box-shadow: rgb(0 0 0 / 10%) 0px 5px 20px;
+          box-shadow: rgb(0 0 0 / 10%) 0px 5px 20px;
+}
+
+header .sticky-header .nav-item .nav-link {
+  color: rgb(68, 68, 68) !important;
+}
+
+header .sticky-header .nav-item .nav-link:hover {
+  color: #F24259;
+}
+
 header .navbar {
   padding: 25px;
 }
