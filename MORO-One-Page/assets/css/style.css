@@ -449,4 +449,31 @@ header .navbar .nav-item .nav-link:hover {
 .our-services .card .card-text {
   font-size: 0.9rem;
 }
+
+.counter-section {
+  background-image: url(https://moro.netlify.app/main/img/bg/some-facts.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.counter-section .card-border {
+  display: block;
+  height: 1px;
+  width: 25%;
+  margin: auto;
+  border-bottom: 1px solid #F24259 !important;
+}
+
+.counter-section i {
+  font-size: 2rem;
+}
+
+.counter-section .counter-home {
+  display: block;
+  font-size: 2.5rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+}
 /*# sourceMappingURL=style.css.map */
